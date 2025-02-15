@@ -235,6 +235,9 @@ public final class BluetoothHeadset implements BluetoothProfile {
     /** A vendor-specific command for unsolicited result code. */
     @Hide public static final String VENDOR_RESULT_CODE_COMMAND_MOTOROLA = "+MOTOROLA";
 
+    /** A vendor-specific command for unsolicited result code. */
+    public static final String VENDOR_RESULT_CODE_COMMAND_XIAOMI = "+XIAOMI";
+
     /** A vendor-specific AT command */
     @Hide public static final String VENDOR_SPECIFIC_HEADSET_EVENT_XAPL = "+XAPL";
 

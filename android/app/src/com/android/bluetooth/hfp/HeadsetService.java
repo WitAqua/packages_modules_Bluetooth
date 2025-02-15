@@ -1949,9 +1949,10 @@ public class HeadsetService extends ConnectableProfile {
             if (connectionState != STATE_CONNECTED) {
                 return false;
             }
-            // Currently we support only "+ANDROID", "+MOTOROLA".
+            // Currently we support only "+ANDROID", "+MOTOROLA", "+XIAOMI".
             if (!command.equals(BluetoothHeadset.VENDOR_RESULT_CODE_COMMAND_ANDROID)
-                    && !command.equals(BluetoothHeadset.VENDOR_RESULT_CODE_COMMAND_MOTOROLA)) {
+                    && !command.equals(BluetoothHeadset.VENDOR_RESULT_CODE_COMMAND_MOTOROLA)
+                    && !command.equals(BluetoothHeadset.VENDOR_RESULT_CODE_COMMAND_XIAOMI)) {
                 Log.w(TAG, "Disallowed unsolicited result code command: " + command);
                 return false;
             }
