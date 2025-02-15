@@ -1164,6 +1164,13 @@ public class BluetoothAssignedNumbers {
      */
     public static final int SEMILINK = 0x00E2;
 
+    /**
+     * Xiaomi, Inc.
+     *
+     * @hide
+     */
+    public static final int XIAOMI = 0x038F;
+
     /*
      * You can't instantiate one of these.
      */
