@@ -275,6 +275,12 @@ static bool a2dp_get_selected_hal_codec_config(A2dpCodecConfig* a2dp_config, uin
       }
       break;
     }
+    case BTAV_A2DP_CODEC_INDEX_SOURCE_LHDCV3: {
+      return true;
+    }
+    case BTAV_A2DP_CODEC_INDEX_SOURCE_LHDCV5: {
+      return true;
+    }
     case BTAV_A2DP_CODEC_INDEX_MAX:
       [[fallthrough]];
     default:
